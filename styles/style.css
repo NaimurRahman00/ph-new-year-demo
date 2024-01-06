@@ -84,3 +84,37 @@ nav > h3 > span {
 .banner-text > .btn {
     margin-bottom: 120px;
 }
+
+/* My failure section styles */
+.my-failure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+}
+.failure-column {
+    margin: 30px 0;
+    width: 50%;
+}
+.failure-column img {
+    max-width: 525px;
+}
+.failure-column h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.failure-column p {
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 16px;
+}
+.failure-column li{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
