@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;900&display=swap');
+/* All reusable styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.btn {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+}
+.container {
+    padding: 0 230px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* Header styles */
+header {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1600px;
+    background-color: #eaeaea99;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+nav > h3 {
+    font-size: 28px;
+    color:#151414;
+}
+nav > h3 > span {
+    color: #F15B22;
+    font-size: 26px;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-link a {
+    margin-left: 40px;
+    color: #151414;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner-container {
+    display: flex;
+    justify-content: right;
+}
+.banner-text {
+    text-align: right;
+    width: 46%;
+}
+.banner-text h1 {
+    color:#151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.banner-text p {
+    color:#444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0 30px;
+}
+.banner-text > .btn {
+    margin-bottom: 120px;
+}
