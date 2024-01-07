@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;900&display=swap');
+
 /* All reusable styles */
 * {
     margin: 0;
@@ -108,20 +109,7 @@ nav > h3 > span {
 .failure-column img {
     max-width: 525px;
 }
-/* .img-back-circle {
-    width: 490px;
-    height: 490px;
-    border-radius: 50%;
-    background: rgba(241, 91, 34, 0.20);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    margin-top: 177px;
-    margin-left: 20px;
-} */
+
 .failure-column h3 {
     color: #151414;
     font-size: 40px;
