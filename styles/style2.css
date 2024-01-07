@@ -28,11 +28,11 @@ li {
 
 /* Header styles */
 header {
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 1600px;
-    background-color: #eaeaea99;
+    background-color: #bebfc3;
 }
 nav {
     display: flex;

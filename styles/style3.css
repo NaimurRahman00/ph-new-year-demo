@@ -13,8 +13,8 @@ li {
 }
 .btn {
     border-radius: 5px;
-    background: #F15B22;
-    color: #FFF;
+    background: #fff;
+    color: #005FAC;
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
@@ -28,11 +28,11 @@ li {
 
 /* Header styles */
 header {
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: 1600px;
-    background-color: #eaeaea99;
+    background-color: #005aa6;
 }
 nav {
     display: flex;
@@ -41,10 +41,10 @@ nav {
 }
 nav > h3 {
     font-size: 28px;
-    color:#151414;
+    color:#222121;
 }
 nav > h3 > span {
-    color: #F15B22;
+    color: #Fff;
     font-size: 26px;
 }
 .nav-link {
@@ -64,7 +64,7 @@ nav > h3 > span {
     -o-transition: .3s;
 }
 .nav-link a:hover {
-    color: #F15B22;
+    color: #fff;
 }
 .banner-container {
     display: flex;
@@ -75,14 +75,14 @@ nav > h3 > span {
     width: 46%;
 }
 .banner-text h1 {
-    color:#151414;
+    color:#ffffff;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
     margin-top: 120px;
 }
 .banner-text p {
-    color:#444343;
+    color:#ffffff;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
@@ -108,7 +108,7 @@ nav > h3 > span {
 .failure-column img {
     max-width: 525px;
 }
-.img-back-circle {
+/* .img-back-circle {
     width: 490px;
     height: 490px;
     border-radius: 50%;
@@ -121,7 +121,7 @@ nav > h3 > span {
     z-index: -1;
     margin-top: 177px;
     margin-left: 20px;
-}
+} */
 .failure-column h3 {
     color: #151414;
     font-size: 40px;
@@ -169,7 +169,7 @@ nav > h3 > span {
     margin: 18px 0 8px;
 }
 .plans-box {
-    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: 100%, 100%;
     margin-top: 135px;
@@ -184,7 +184,7 @@ nav > h3 > span {
 }
 .plans-box .btn {
     background-color: #FFF;
-    color: #F15B22;
+    color: #005FAC;
     padding: 21px 36px;
 }
 
@@ -243,8 +243,8 @@ form input {
     width: 325px;
 }
 form button {
-    background-color: #fff !important;
-    color: #F15B22 !important;
+    background-color: #005FAC !important;
+    color: #fff !important;
     display: block;
 }
 
