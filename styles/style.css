@@ -118,3 +118,49 @@ nav > h3 > span {
     font-weight: 400;
     margin-bottom: 8px;
 }
+
+/* My plans section styles */
+.my-plans {
+    margin-bottom: 100px;
+}
+.my-plans > h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+    text-align: center;
+}
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plans {
+    text-align: center;
+}
+.plans h3 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 18px 0 8px;
+}
+.plans-box {
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    margin-top: 135px;
+    padding: 60px 65px;
+}
+.plans-box h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 50%;
+    margin-bottom: 24px;
+}
+.plans-box .btn {
+    background-color: #FFF;
+    color: #F15B22;
+    padding: 21px 36px;
+}
